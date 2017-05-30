@@ -1,0 +1,16 @@
+﻿-- Table: empresa.trabalhaem
+
+-- DROP TABLE empresa.trabalhaem;
+
+CREATE TABLE empresa.trabalhaem
+(
+  codemp integer NOT NULL,
+  codproj integer NOT NULL,
+  horas integer,
+  CONSTRAINT trabalhaem_pkey PRIMARY KEY (codemp, codproj)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE empresa.trabalhaem
+  OWNER TO nicholas;

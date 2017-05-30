@@ -1,0 +1,41 @@
+
+p{
+	text-align: justify;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+	width: 500px;
+	background-color: #ebebe0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+li a{
+	
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid black;
+	
+}
+
+li a:hover{
+	border: 1px solid black;
+	background-color: #9933ff;
+	color: white;
+
+}
+
+img{
+	height: 150px;
+}
+
+button{
+	cursor: pointer;
+}
